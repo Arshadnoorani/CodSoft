@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@1,100&family=Quicksand:wght@300&family=Sacramento&family=Ubuntu:ital,wght@1,300&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background:linear-gradient(145deg,#291379,#5c065c) ;
+}
+.button{
+    /* width: 66px; */
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.ac{
+    padding: 17px;
+}
+.zero{
+    padding: 20px 50px;
+}
+.abc{
+    padding: 19px 48px;
+}
+
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 230px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

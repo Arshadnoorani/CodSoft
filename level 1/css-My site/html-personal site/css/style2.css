@@ -1,0 +1,24 @@
+/*****************************************tag selector********************************************/
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+/***************************************class selector*******************************************/
+.chicken{
+    background-color: green;
+}
+.broccoli{
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+/***************************************id selector*******************************************/
+#heading{
+    color: blue;
+}

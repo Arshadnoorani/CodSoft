@@ -1,0 +1,233 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+
+}
+/* for user */
+.user{
+    text-align: center;
+}
+.top-user{
+    padding-top: 40px;
+}
+h1{
+    font-size: 4.4rem;
+    /* width: 10%; */
+    margin: 50px auto 0 auto;
+    /* margin: 0 auto; */
+    font-family: 'Sacramento', cursive;
+    color: #3ac2c2;
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    color:  #11999E;
+    /* font-size: 2.2rem; */
+}
+p{
+    line-height: 2;
+}
+/* navigation bar  */
+.navbar{
+    padding: 0 0  5.0rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0;
+}
+.nav-link{
+    font-size: 1.2 rem;
+    font-family: "Montserrat-Light";
+}
+
+hr{
+    border: dotted  #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.top-container{ 
+    background-color:rgb(107, 18, 55);
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    /* background: url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat center center fixed; */
+    /* background-color: rgb(141, 18, 65); */
+    background-size: cover;
+    background-size: 1350px 700px;
+    /* width: 200px;
+    height: 200px; */
+    /*border: solid 10px;
+    padding: 20px; */
+}
+.middle-container{
+    /* position: relative; */
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    margin: 5px 0;
+   
+}
+.profile{
+    padding: 0%;
+    /* background-color:rgb(60, 18, 107); */
+}
+.bottom-container{
+    background-color: #66bfbf ;
+    padding: 50px 0 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    
+}
+.Skills{
+    background-color: #9a1193;
+    padding-bottom: 5px;
+}
+.projects{
+    background-color: #9a1193;
+    
+}
+.project-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.pro{
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/* .cloud1{
+    background-color: rgb(209, 168, 168);
+    position: absolute ;
+    right: 300px;
+    top: 50px;
+    
+}
+.cloud2{
+    background-color: rgb(226, 205, 205);
+    position:absolute;
+    left: 300px;
+    bottom: 130px;
+    
+} */
+.Arshad-photo{
+    width: 100px;
+    height: 100px;
+}
+.code-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.DSA-img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+    
+}
+.chess-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.pot-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.to-do-img{
+    float: right;
+    margin-left: 30px;
+}
+.cal-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.dog-img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    padding-right: 20px;
+    margin-right: 30px;
+}
+.tri-img{
+    float: left;
+    margin-right: 30px;
+}
+.hotel-img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    
+    margin-right: 30px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999a);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30a3cb;
+    background-image: -webkit-linear-gradient(top, #30a3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30a3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30a3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30a3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30a3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .arshad{
+    color: #fcfcfc;
+    font-size: 0.75rem;
+    padding: 10px 0;
+  }
